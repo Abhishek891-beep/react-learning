@@ -33,6 +33,7 @@ function App() {
   }
 
   // need to learn about this
+  // some more
   useEffect(()=>{
     if(!localStorage){
       return
