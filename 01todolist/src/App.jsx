@@ -8,6 +8,7 @@ function App() {
   const [todoValue , setTodoValue] = useState("")
 
 // need to learn about this
+// some more things are to ben learnt
   function  persistData(newList){
     localStorage.setItem("todos", JSON.stringify({todos : newList }))
   }
